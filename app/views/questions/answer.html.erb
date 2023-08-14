@@ -1,0 +1,17 @@
+<div class="col-4 m-4">
+  <h1>Stupid Coach</h1>
+
+  <div>
+  <%= params[:query] %>
+  <p><em>-You</em></p>
+  </div>
+
+  <div class="bg-warning">
+  <%= @coach_answer %>
+  <p><em>-Your Coach</em></p>
+  </div>
+
+  <div>
+  <%= link_to 'Ask a new question', 'ask'%>
+  </div>
+</div>
